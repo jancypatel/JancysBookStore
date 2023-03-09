@@ -21,3 +21,8 @@ Action Items:
 Modified the default welcome message tested.
 review the route pattern in Startup.cs
 
+1443
+Confirmed the repo is build. Now I want to test it. 
+
+1445
+Create README.md file in GitHub and pull it in Visual Studio.
