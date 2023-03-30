@@ -76,3 +76,45 @@ Modified the namespace to reflect the project
 
 2035
 Deleted the default Class1.cs file from all projects
+
+2045
+Build the Project and found the three errors
+
+2050
+Moved Models folder to JancysBook.Models And deleted the original.
+
+2205
+Added project reference in .DataAccess and .Models project.
+Rename Models to ViewModels and changed the namespace to Models.ViewModels
+
+2210
+Trying to run the application to review errors. 
+Chnaged the reference in Error.cshtml and tested the application and all the errors are solved.
+
+2224
+Added a SD.cs class to the .Utilities project.
+Changed the class to public static.
+
+2226
+Added a projet reference to the main project and also to the .DataAccess project.
+
+2227
+Added a area named Customer into Areas.
+Also chnaged the routes in Startup.cs file. 
+
+2233
+Moved HomeController.cs to Customer>Controllers and also moved Home folder to Views folder. 
+Deleted the Data and Models folder. 
+
+2235
+Run the application but it only shows Jancys Book Store only. 
+
+2238
+Copied _ViewStart.cshtml and _ViewImports.cshtml file to Customer area. 
+
+2240
+Modified the path in _ViewStart.cshtml file and run the application. It runs without getting an error. 
+
+2242
+Added area named Admin into Areas. 
+Copied the View files and deleted the Data, Models and Controller. 

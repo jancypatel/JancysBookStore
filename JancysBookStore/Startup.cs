@@ -1,4 +1,5 @@
-using JancysBookStore.Data;
+//using JancysBookStore.Data;
+using JancysBookStore.DataAcesss.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -63,7 +64,7 @@ namespace JancysBookStore
                 endpoints.MapControllerRoute(
                     name: "default",
                     //Here is the default route pattern. 
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
