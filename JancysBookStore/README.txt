@@ -59,5 +59,20 @@ Added 3 new .Net core class library projects to the application.
 1- JancysBooks.DataAccess
 2- JancysBooks.Models
 3- JancysBooks.Utility
-Then copy the Data folder and paste into the JancysBooks.DataAccess project and also deleted from the original source.
+Then copied the Data folder and pasted into the JancysBooks.DataAccess project and also deleted from the original source.
 
+2023-03-29
+2000
+Installed Microsoft.Entity Framework Core .Relational and Core.SQL Server Packeges
+
+2004
+Deleted the Migrations folder
+
+2025
+Installed Entity FrameWork Core NuGet packages in DataAcesss
+
+2030
+Modified the namespace to reflect the project
+
+2035
+Deleted the default Class1.cs file from all projects
