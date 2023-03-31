@@ -118,3 +118,37 @@ Modified the path in _ViewStart.cshtml file and run the application. It runs wit
 2242
 Added area named Admin into Areas. 
 Copied the View files and deleted the Data, Models and Controller. 
+
+2323-03-30
+Part 2
+1815
+buid the project and got 4 succeeded.
+Changed the name in appsetting.json file.
+
+1835
+Added the wrong default Project and got error.
+
+1840
+Changed to the correct default project.
+Use Nuget package manager console to add migration.
+file name:20230330223942_AddDefaultidentityMigration.cs
+
+1850
+After that in the PM console updated the database by using update-database.
+Reviewed the updated in SQL Server object Explorer then run the application and it worked without error.
+
+1900
+Added new class file Category.cs into .Models
+Change the project to .DataAcesss and written command again in PM console and it work
+
+1910
+Updated the ApplicationDbContext.cs file
+
+
+
+
+
+
+
+
+

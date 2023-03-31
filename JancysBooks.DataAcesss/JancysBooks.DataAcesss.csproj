@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20230331000029_AddMigrationToDb.cs" />
+    <Compile Remove="Migrations\20230331000029_AddMigrationToDb.Designer.cs" />
+    <Compile Remove="Migrations\20230331003616_AddCategoryToDb.cs" />
+    <Compile Remove="Migrations\20230331003616_AddCategoryToDb.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.27" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.27" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.27" />
