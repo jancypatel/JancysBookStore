@@ -163,11 +163,6 @@ implemented the interface to update in CategoryRepository.cs
 after that build the app and it was error free.
 then commited the code and push to github
 
-1932
-Created ISP_Call.cs interface and modified it
-
-1934
-ISP_Call.cs file is updated
 
 
 
