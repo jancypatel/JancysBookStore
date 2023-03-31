@@ -144,6 +144,31 @@ Change the project to .DataAcesss and written command again in PM console and it
 1910
 Updated the ApplicationDbContext.cs file
 
+1915
+Run again the migration command add-migration Addcategory and got error
+after that solved the duplication error and also written the migration command of update-database
+and got category table in SQL SOE
+
+1920
+Created and modified the IRepository
+
+1923
+Copied and pasted the Repository.cs file from Assignment 2.
+
+1927
+changed the CategoryRepository.cs also modified it.
+
+1929
+implemented the interface to update in CategoryRepository.cs
+after that build the app and it was error free.
+then commited the code and push to github
+
+1932
+Created ISP_Call.cs interface and modified it
+
+1934
+ISP_Call.cs file is updated
+
 
 
 
