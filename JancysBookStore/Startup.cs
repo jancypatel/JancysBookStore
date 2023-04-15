@@ -1,4 +1,6 @@
 //using JancysBookStore.Data;
+using JancysBooks.DataAccess.Repository;
+using JancysBooks.DataAccess.Repository.IRepository;
 using JancysBookStore.DataAcesss.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -33,8 +35,9 @@ namespace JancysBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>() //(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
-            services.AddRazorPages();
+            //services.AddRazorPages();  
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

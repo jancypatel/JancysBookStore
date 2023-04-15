@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\**" />
+    <Content Remove="Controllers\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <None Remove="Controllers\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.27" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.27" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.27" />
@@ -18,10 +25,6 @@
     <ProjectReference Include="..\JancysBooks.DataAcesss\JancysBooks.DataAcesss.csproj" />
     <ProjectReference Include="..\JancysBooks.Models\JancysBooks.Models.csproj" />
     <ProjectReference Include="..\JancysBooks.Utility\JancysBooks.Utility.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

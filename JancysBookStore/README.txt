@@ -176,6 +176,20 @@ Added a UnitOfWork.cs in the Repository folder and updatade the code.
 
 
 
+2023-04-15
+1310
+Added  services.AddScoped<IUnitOfWork, UnitOfWork>(); in Startup.cs.
+
+1407
+Added new MVC Controller named Category Controller.cs.
+And modified this file.
+
+1412
+created Category folder and added index.cshtml in it.
+
+1420
+Added Category in _Layout.cshtml file.
+Run the application. Run Successfully. 
 
 
 
