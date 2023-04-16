@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -9,6 +9,10 @@
     <Compile Remove="Migrations\20230331000029_AddMigrationToDb.Designer.cs" />
     <Compile Remove="Migrations\20230331003616_AddCategoryToDb.cs" />
     <Compile Remove="Migrations\20230331003616_AddCategoryToDb.Designer.cs" />
+    <Compile Remove="Migrations\20230416221252_AddCoverTypeToDb.cs" />
+    <Compile Remove="Migrations\20230416221252_AddCoverTypeToDb.Designer.cs" />
+    <Compile Remove="Migrations\20230416223652_AddCoverTypeToDb.cs" />
+    <Compile Remove="Migrations\20230416223652_AddCoverTypeToDb.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

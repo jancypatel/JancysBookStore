@@ -206,3 +206,25 @@ Added category.js file in wwwroot/js folder to perform upsert and delete action.
 
 1210
 Run the application. Run successfully without any error but when I add the category. It added but cannot be able to see in the category list.
+
+1811
+Added CoverType.cs file in the models project.
+
+1820
+Added CoverType in applicationdbcontext file.
+
+1825
+performed migration in PMConsole.
+Verify Table with the Sql soe.
+
+1850
+Added CoverType Repository and IRepository folder in DataAccess and update that file. 
+Also added covertype in unitofwork and Iunitofwork file. 
+
+1903
+Added CoverTypeController.cs in admin>controller folder. 
+Also created a folder named CoverType and added Index and Upsert.cshtml in it. Update these files. 
+Added navigation of covertype in _Layout.cshtml and added coverType.js file in wwwroot>js folder to perform delete and update action. 
+
+1905
+Run the application. run successfully without errors. I can add the Category and covertype but the added list is not visible. 
