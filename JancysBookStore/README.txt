@@ -192,8 +192,17 @@ Added Category in _Layout.cshtml file.
 Run the application. Run Successfully. 
 
 
+2023-04-16
 
+1110
+Created Upsert.cshtml in Areas> Admin> Views folder.
+Update this file.
 
+1143
+Created Partial Views named as _CreateAndBackToListButton.cshtml and _EditAndBackToListButton.cshtml files in Views>Shared.
 
+1208
+Added category.js file in wwwroot/js folder to perform upsert and delete action. 
 
-
+1210
+Run the application. Run successfully without any error but when I add the category. It added but cannot be able to see in the category list.
