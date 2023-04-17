@@ -241,3 +241,15 @@ also verified the table through sql soe.
 Added Product to the Repository and IRepository folder. 
 Also added Product to the Unitofwork and IUnitofwork. 
 Added navigation of product to the _Layout.cshtml file.
+
+2202
+Added ProductController.cs file and update it with Upsert calls.
+Modified API Call. 
+Created ProductVM.cs file in ViewModels folder and installed .ViewFeatures Package.
+
+2308
+Added product.js file in wwwroot>js folder.
+Also added Index and Upsert.cshtml files in Areas>Admin>Views>Product folder.
+Created account in tiny.cloud and used api key and aded to upsert.cshtml file.
+Also created images folder in wwwroot and products in images folder. 
+Also run the application and it works good. 
