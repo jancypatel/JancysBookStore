@@ -228,3 +228,16 @@ Added navigation of covertype in _Layout.cshtml and added coverType.js file in w
 
 1905
 Run the application. run successfully without errors. I can add the Category and covertype but the added list is not visible. 
+
+2030
+Created Product.cs file in the Models project and update that file.
+
+2046
+Added Product in Applicationdbcontext file and performed migration. 
+20230417004617_AddProductToDb.cs file is added through Migration. 
+also verified the table through sql soe.
+
+2100
+Added Product to the Repository and IRepository folder. 
+Also added Product to the Unitofwork and IUnitofwork. 
+Added navigation of product to the _Layout.cshtml file.
