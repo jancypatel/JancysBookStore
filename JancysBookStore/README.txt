@@ -253,3 +253,16 @@ Also added Index and Upsert.cshtml files in Areas>Admin>Views>Product folder.
 Created account in tiny.cloud and used api key and aded to upsert.cshtml file.
 Also created images folder in wwwroot and products in images folder. 
 Also run the application and it works good. 
+
+20-04-2023
+1215
+Modified the ProductController,cs file by using Upsert post method.
+and also Modified Upsert.cshtml.
+
+1225
+Changes has done in HomeController.cs.
+
+1238
+Index.cshtml file in the folder is modified Areas=>Customer=>Views=>Home.
+try to add product after runnig application and it is working successfully.
+However, There is small issue in product visibility.
